@@ -1,0 +1,7 @@
+flex digit_check.l
+gcc lex.yy.c -o digit_check -lfl
+./digit_check
+
+flex token_identifier.l
+gcc lex.yy.c -o token_identifier -lfl
+./token_identifier
